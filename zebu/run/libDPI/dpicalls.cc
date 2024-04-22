@@ -13,8 +13,17 @@
 #include <iomanip>
 #include <string>
 
+//FILE *fin = fopen("datain.txt", "w"); 
+// FILE *fout = fopen("dataout.txt", "w"); 
 
-extern "C" void fifo_usage_spy_notify( )
+extern "C" void fifo_usage_spy_notify( /*we, re*/ )
 {
  // TODO
+ if (we)
+  // fprint to file dataout
+
+ if (re)
+  // fprint to file datain
+
+  // close files
 }
